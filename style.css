@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #111;
+    color: #fff;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 8px 8px;
+    background: blue;
+    position: sticky;
+    top: 0;
+    z-index: 30px;
+}
+.logo{
+    font-family: 'cinzel',serif;
+    color: #D4AF37;
+    font-size: 20px;
+}
+nav ul li{
+    margin-left: 30px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transform: 3s;
+}
+nav ul li a:hover{
+    color: #D4AF37;
+}
+header{
+    background-image: url(img/perso.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+}
+main{
+    width: min(900PX,92%);
+    margin: 24PX auto;
+}
+section {
+    margin-bottom: 18px;
+    padding: 22px;
+    background: white;
+    border-radius: 8px;
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content:space-between;
+}
+div bannier{
+     padding: 28px 16px;
+    text-align: center;
+    color: black;
+    background: blue;
+}
+article{
+    margin-bottom: 15px;
+    padding: 18px;
+    background: gray;
+    border-radius: 8px;
+    
+}
+footer{
+    background: #000;
+    text-align: center;
+    padding: 25px;
+    color: #bbb;
+}
